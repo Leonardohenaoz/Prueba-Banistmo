@@ -12,15 +12,19 @@ public class BancolombiaHomePage extends PageObject {
     public static final Target OPCION_PRODUCTOS_SERVICIOS = Target.the("Opción Productos & Servicios")
             .located(By.xpath("(//a[@class='dropdown-toggle' and contains(text(), 'Productos')])[1]\r\n"));
 
+    //Pendiente por comprobar
     public static final Target OPCION_INVERSIONES = Target.the("Opción Inversiones")
             .located(By.xpath("//a[contains(text(), 'Inversiones')]"));
-
+    
+  //Pendiente por comprobar
     public static final Target OPCION_INVERSION_VIRTUAL = Target.the("Opción Inversión Virtual")
             .located(By.xpath("//a[contains(text(), 'Inversión Virtual')]"));
-
+    
+  //Pendiente por comprobar
     public static final Target OPCION_DOCUMENTOS = Target.the("Opción Documentos")
             .located(By.xpath("//a[contains(text(), 'Documentos')]"));
-
+    
+  //Pendiente por comprobar
     public static final Target OPCION_REGLAMENTO_INVERSION = Target.the("Reglamento Inversión Virtual Bancolombia")
             .located(By.xpath("//a[contains(text(), 'Reglamento Inversión Virtual Bancolombia')]"));
 }
