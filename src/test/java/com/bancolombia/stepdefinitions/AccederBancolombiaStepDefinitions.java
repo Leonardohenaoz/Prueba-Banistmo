@@ -22,7 +22,8 @@ public class AccederBancolombiaStepDefinitions {
 
     @Dado("que el usuario abre la página de Bancolombia")
     public void queElUsuarioAbreLaPaginaDeBancolombia() {
-        OnStage.theActorCalled("Usuario").attemptsTo(AbrirPagina.en("https://www.bancolombia.com/personas"));
+        //OnStage.theActorCalled("Usuario").attemptsTo(AbrirPagina.en("https://www.bancolombia.com/personas"));
+        OnStage.theActorCalled("Usuario").attemptsTo(AbrirPagina.en("https://www.banistmo.com/wps/portal/banistmo/personas"));
     }
 
     @Cuando("selecciona las opciones requeridas")
